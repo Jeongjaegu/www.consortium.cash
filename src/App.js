@@ -50,12 +50,12 @@ class App extends Component {
               <h3><i className="far fa-lightbulb" /> C2 MISSION</h3>
               <p>The C2&rsquo;s mission is to lead Bitcoin Cash to its full potential by developing protocols and guidelines that ensure the long-term growth of the blockchain.</p>
               <h3><i className="fas fa-wrench" /> Open Standards Principles</h3>
-              <p>We affirm and adhere to the <a href='https://open-stand.org/about-us/principles/'>Principles in support of The Modern Paradigm for Standards</a>&mdash;Cooperation, Due process, Broad consensus, Transparency, Balance and Openness.</p>
+              <p>We affirm and adhere to the <a href='https://open-stand.org/about-us/principles/'>Principles in support of The Modern Paradigm for Standards</a>&mdash;cooperation, due process, broad consensus, transparency, balance and openness.</p>
               <h3><i className="fas fa-bolt" /> Design Principles</h3>
               <h4><i className="fas fa-users" /> Bitcoin Cash for all</h4>
               <p>Money is critical to the human condition. Bitcoin Cash and Blockchain technology enable financial sovereignty in a way which is unique in history. One of C2&rsquo;s primary goals is to make these benefits available to all people, whatever their age, gender, nationality or financial status.</p>
               <h4><i className="fas fa-globe" /> Blockchain everywhere</h4>
-              <p>We believe the Blockchain will prove to have as profound an impact on society as the Web. We consider it a great honor to witness the birth of such an aamzing technology and view stewardship of the blockchain as a great responsibiility.</p>
+              <p>We believe the Blockchain will prove to have as profound an impact on society as the Web. We consider it a great honor to witness the birth of such an amazing technology and view stewardship of the blockchain as a great responsibiility.</p>
               <h3><i className="fas fa-eye" /> Vision</h3>
               <h4><i className="fas fa-dollar-sign" /> Sound Money</h4>
               <p>Bitcoin Cash is the soundest money the world has ever known. It has scarcity, fungibility, divisibility, durability and transferability. It&rsquo;s our intention that it remain the soundest money the world has ever known.</p>
