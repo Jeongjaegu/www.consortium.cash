@@ -62,54 +62,58 @@ class App extends Component {
               <h4><i className="fas fa-code" /> Smart Money</h4>
               <p>Bitcoin Cash enables smart contracts/property, colored coins, tokens, ICOs and much more. We intend to standardize these emerging technologies in a way that plays to Bitcoin Cash&rsquo;s strengths.</p>
               <h3><i className="fas fa-building" /> Companies</h3>
-              <div className="pure-g">
-                <div className="pure-u-1-3">
-                  <p className='branding'>
-                    <a href='https://www.yours.org/@akari'>
-                      <img src="./akari.jpg" /><br />
-                      Akari Global Foundation
-                    </a>
-                  </p>
-                </div>
-                <div className="pure-u-1-3">
-                  <p className='branding'>
-                    <a href='https://www.bitbox.earth'>
-                      <img src="./bitbox.png" /><br />
-                      BITBOX
-                    </a>
-                  </p>
-                </div>
-                <div className="pure-u-1-3">
-                  <p className='branding'>
-                    <a href='https://www.bitcoin.com'>
-                      <img src="./bitcoin.png" /><br />
-                      Bitcoin.com
-                    </a>
-                  </p>
-                </div>
-              </div>
-              <div className="pure-g">
-                <div className="pure-u-1-3">
-                  <p className='branding'>
-                    <a href='https://www.blockpress.com/'>
-                      <img src="./blockpress.jpg" /><br />
-                      BlockPress
-                    </a>
-                  </p>
-                </div>
-                <div className="pure-u-1-3">
-                  <p className='branding'>
-                    <a href='https://www.yours.org'>
-                      <img src="./yours.jpg" /><br />
-                      Yours
-                    </a>
-                  </p>
-                </div>
-                <div className="pure-u-1-3">
-                  <p>
-                  </p>
-                </div>
-              </div>
+            </div>
+          </div>
+          <div className="pure-g content">
+            <div className="pure-u-1 pure-u-md-1-3">
+              <p className='branding'>
+                <a href='https://www.yours.org/@akari'>
+                  <img src="./akari.jpg" /><br />
+                  Akari Global Foundation
+                </a>
+              </p>
+            </div>
+            <div className="pure-u-1 pure-u-md-1-3">
+              <p className='branding'>
+                <a href='https://www.bitbox.earth'>
+                  <img src="./bitbox.png" /><br />
+                  BITBOX
+                </a>
+              </p>
+            </div>
+            <div className="pure-u-1 pure-u-md-1-3">
+              <p className='branding'>
+                <a href='https://www.bitcoin.com'>
+                  <img src="./bitcoin.png" /><br />
+                  Bitcoin.com
+                </a>
+              </p>
+            </div>
+          </div>
+          <div className="pure-g content">
+            <div className="pure-u-1 pure-u-md-1-3">
+              <p className='branding'>
+                <a href='https://www.blockpress.com/'>
+                  <img src="./blockpress.jpg" /><br />
+                  BlockPress
+                </a>
+              </p>
+            </div>
+            <div className="pure-u-1 pure-u-md-1-3">
+              <p className='branding'>
+                <a href='https://www.yours.org'>
+                  <img src="./yours.jpg" /><br />
+                  Yours
+                </a>
+              </p>
+            </div>
+            <div className="pure-u-1 pure-u-md-1-3">
+              <p>
+              </p>
+            </div>
+          </div>
+          <div className="pure-g content">
+            <div className="pure-u-1">
               <h3><i className="far fa-smile" /> Get Involved</h3>
               <p>Do you work w/ a company in the Bitcoin Cash space? Please reach out to <a href='https://twitter.com/cgcardona'>@cgcardona</a> for more details.</p>
             </div>
