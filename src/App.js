@@ -7,7 +7,6 @@ import {
   Redirect,
   NavLink
 } from 'react-router-dom';
-import logo from './logo.png';
 
 import Homepage from './Homepage';
 import AddNode from './components/AddNode';
@@ -19,16 +18,9 @@ import './App.css';
 class App extends Component {
   constructor(props) {
 
-    let BITBOXCli = require('bitbox-cli/lib/bitboxcli').default;
-    let BITBOX = new BITBOXCli({
-      protocol: 'https',
-      host: 'rest.bitbox.earth'
-    });
-
     super(props);
     this.state = {
-      activeMenu: '',
-      BITBOX: BITBOX
+      activeMenu: ''
     }
   }
 
@@ -53,21 +45,13 @@ class App extends Component {
       );
     };
 
-    const DecodeRawTransactionPage = (props) => {
-      return (
-        <DecodeRawTransaction
-          bitbox={this.state.BITBOX}
-        />
-      );
-    };
-
     return (
       <div id="layout" className={`${this.state.activeMenu}`}>
         <div id="main">
           <div className="header">
-            <h1>consortium.cash</h1>
-            <h2>A web based interface to lorem ipsum dolor sit</h2>
-            <p>Welcome to consortium.cash! Lorom ipsum dolor sit amit yeah yeah yeah.</p>
+            <h1>The Cash Consortium</h1>
+            <h2>Open Development. Open Standards.</h2>
+            <p>The Cash Consortium (C2) is an international community that develops open standards to ensure the long-term growth of Bitcoin Cash.</p>
           </div>
           <div className="content">
             <Router>
@@ -81,7 +65,7 @@ class App extends Component {
                       className="pure-menu-heading"
                       href="https://www.bitbox.earth">
 
-                      <img src='./logo.png' /> <br />BITBOX
+                      <img src='./logo.png' /> <br />C2
                     </a>
                     <ul className="pure-menu-list">
                       <li className="pure-menu-item">
@@ -92,21 +76,12 @@ class App extends Component {
                           AddNode
                         </NavLink>
                       </li>
-                      <li className="pure-menu-item">
-                        <NavLink
-                          activeClassName="pure-menu-selected"
-                          className="pure-menu-link"
-                          to="/decoderawtransaction">
-                          DecodeRawTransaction
-                        </NavLink>
-                      </li>
                     </ul>
                   </div>
                 </div>
 
                 <Switch>
                   <Route path="/addnode" component={AddNodePage}/>
-                  <Route path="/decoderawtransaction" component={DecodeRawTransactionPage}/>
                   <Route exact path="/" component={Homepage}/>
                   <Redirect from='*' to='/' />
                 </Switch>
