@@ -61,10 +61,10 @@ class App extends Component {
               <p>Bitcoin Cash is the soundest money the world has ever known. It has scarcity, fungibility, divisibility, durability and transferability. It&rsquo;s our intention that it remain the soundest money the world has ever known.</p>
               <h4><i className="fas fa-code" /> Smart Money</h4>
               <p>Bitcoin Cash enables smart contracts/property, colored coins, tokens, ICOs and much more. We intend to standardize these emerging technologies in a way that plays to Bitcoin Cash&rsquo;s strengths.</p>
+            </div>
+            <div className="pure-u-1">
               <h3><i className="fas fa-building" /> Companies</h3>
             </div>
-          </div>
-          <div className="pure-g content">
             <div className="pure-u-1 pure-u-md-1-3">
               <p className='branding'>
                 <a href='https://www.yours.org/@akari'>
@@ -89,8 +89,6 @@ class App extends Component {
                 </a>
               </p>
             </div>
-          </div>
-          <div className="pure-g content">
             <div className="pure-u-1 pure-u-md-1-3">
               <p className='branding'>
                 <a href='https://www.blockpress.com/'>
@@ -111,11 +109,29 @@ class App extends Component {
               <p>
               </p>
             </div>
-          </div>
-          <div className="pure-g content">
+            <div className="pure-u-1">
+              <h3><i className="fas fa-user" /> Individuals</h3>
+              <p>The C2 is about empowering people around the world w/ Bitcoin Cash. We consist of companies and individuals committed to seeing Bitcoin Cash to it&rsquo;s full potential.</p>
+            </div>
+            <div className="pure-u-1 pure-u-md-1-3">
+              <p className='branding'>
+                <a href='https://twitter.com/CryptoWyvern'>
+                  <img src="./CryptoWyvern.jpg" /><br />
+                  @CryptoWyvern
+                </a>
+              </p>
+            </div>
+            <div className="pure-u-1 pure-u-md-1-3">
+            </div>
+            <div className="pure-u-1 pure-u-md-1-3">
+            </div>
+            <div className="pure-u-1 pure-u-md-1-3">
+              <p>
+              </p>
+            </div>
             <div className="pure-u-1">
               <h3><i className="far fa-smile" /> Get Involved</h3>
-              <p>Do you work w/ a company in the Bitcoin Cash space? Please reach out to <a href='https://twitter.com/cgcardona'>@cgcardona</a> for more details.</p>
+              <p>Do you work w/ a company in the Bitcoin Cash space? Are you an individual who is SUPERCHARGED to change the world w/ Bitcoin Cash? Please <a href='https://github.com/bigearth/www.consortium.cash'>fork this repo</a> and add yourself or reach out to <a href='https://twitter.com/cgcardona'>@cgcardona</a> for more details.</p>
             </div>
           </div>
         </div>
