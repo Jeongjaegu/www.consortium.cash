@@ -64,6 +64,9 @@ class App extends Component {
               <h3><i className="fas fa-building" /> Companies</h3>
               <ul>
                 <li>
+                  <a href='https://www.yours.org/@akari'>Akari Global Foundation</a>
+                </li>
+                <li>
                   <a href='https://www.bitbox.earth'>BITBOX</a>
                 </li>
                 <li>
