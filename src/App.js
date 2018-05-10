@@ -40,7 +40,7 @@ class App extends Component {
       <div id="" className={`${this.state.activeMenu}`}>
         <div id="main">
           <div className="header">
-            <h1><img src="/12-bitcoin-cash-square-crop.svg" /> The Cash Consortium</h1>
+            <h1><img src="./12-bitcoin-cash-square-crop.svg" /> The Cash Consortium</h1>
             <h2>Open Development. Open Standards.</h2>
             <p>The Cash Consortium (C2) is an international community that develops open standards to ensure the long-term growth of Bitcoin Cash.</p>
           </div>
