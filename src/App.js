@@ -66,6 +66,9 @@ class App extends Component {
                 <li>
                   <a href='https://www.bitbox.earth'>BITBOX</a>
                 </li>
+                <li>
+                  <a href='https://www.bitcoin.com'>Bitcoin.com</a>
+                </li>
               </ul>
               <h3><i className="far fa-smile" /> Get Involved</h3>
               <p>Do you work w/ a company in the Bitcoin Cash space? Please reach out to <a href='https://twitter.com/cgcardona'>@cgcardona</a> for more details.</p>
