@@ -283,3 +283,12 @@ a, a:visited, a:hover, a:active {
 .header img {
   width: 35px;
 }
+
+.branding {
+  text-align: center;
+}
+
+.pure-g img {
+  width: 150px;
+  border-radius: 5px;
+}
