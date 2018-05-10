@@ -56,30 +56,6 @@ class App extends Component {
           <div className="content">
             <Router>
               <div>
-                <a href="#menu" id="menuLink" onClick={this.handleClick.bind(this)} className={`menu-link`}>
-                  <span></span>
-                </a>
-                <div id="menu">
-                  <div className="pure-menu">
-                    <a
-                      className="pure-menu-heading"
-                      href="https://www.bitbox.earth">
-
-                      <img src='./logo.png' /> <br />C2
-                    </a>
-                    <ul className="pure-menu-list">
-                      <li className="pure-menu-item">
-                        <NavLink
-                          activeClassName="pure-menu-selected"
-                          className="pure-menu-link"
-                          to="/addnode">
-                          AddNode
-                        </NavLink>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
                 <Switch>
                   <Route path="/addnode" component={AddNodePage}/>
                   <Route exact path="/" component={Homepage}/>
