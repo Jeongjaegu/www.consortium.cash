@@ -279,3 +279,7 @@ a, a:visited, a:hover, a:active {
   color: #1f8dd6;
   text-decoration: none;
 }
+
+.header img {
+  width: 30px;
+}
