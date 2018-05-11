@@ -63,6 +63,17 @@ class App extends Component {
               <p>Bitcoin Cash enables smart contracts/property, colored coins, tokens, ICOs and much more. We intend to standardize these emerging technologies in a way that plays to Bitcoin Cash&rsquo;s strengths.</p>
             </div>
             <div className="pure-u-1">
+              <h3><i className="fas fa-file" /> Specifications</h3>
+            </div>
+            <div className="pure-u-1 pure-u-md-1-3">
+              <p className='branding'>
+                <a href='https://spec.consortium.cash'>
+                  <img src="./12-bitcoin-cash-square-crop.svg" /><br />
+                  Bitcoin Cash 1.0
+                </a>
+              </p>
+            </div>
+            <div className="pure-u-1">
               <h3><i className="fas fa-building" /> Companies</h3>
             </div>
             <div className="pure-u-1 pure-u-md-1-3">
