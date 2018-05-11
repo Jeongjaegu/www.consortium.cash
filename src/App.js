@@ -91,6 +91,14 @@ class App extends Component {
             </div>
             <div className="pure-u-1 pure-u-md-1-3">
               <p className='branding'>
+                <a href='https://www.centbee.com/'>
+                  <img src="./centbee.jpg" /><br />
+                  Centbee
+                </a>
+              </p>
+            </div>
+            <div className="pure-u-1 pure-u-md-1-3">
+              <p className='branding'>
                 <a href='https://cointext.io/'>
                   <img src="./cointext.jpg" /><br />
                   CoinText
@@ -103,10 +111,6 @@ class App extends Component {
                   <img src="./yours.jpg" /><br />
                   Yours
                 </a>
-              </p>
-            </div>
-            <div className="pure-u-1 pure-u-md-1-3">
-              <p className=''>
               </p>
             </div>
             <div className="pure-u-1">
