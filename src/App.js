@@ -91,6 +91,14 @@ class App extends Component {
             </div>
             <div className="pure-u-1 pure-u-md-1-3">
               <p className='branding'>
+                <a href='https://www.thebitcoincash.fund/'>
+                  <img src="./bcf.jpg" /><br />
+                  The Bitcoin Cash Fund
+                </a>
+              </p>
+            </div>
+            <div className="pure-u-1 pure-u-md-1-3">
+              <p className='branding'>
                 <a href='https://www.blockpress.com/'>
                   <img src="./blockpress.jpg" /><br />
                   BlockPress
