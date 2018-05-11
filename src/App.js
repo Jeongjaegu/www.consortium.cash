@@ -75,6 +75,14 @@ class App extends Component {
             </div>
             <div className="pure-u-1 pure-u-md-1-3">
               <p className='branding'>
+                <a href='https://twitter.com/AtlantisLabsHQ'>
+                  <img src="./Atlantis.jpg" /><br />
+                  AtlantisLabsHQ
+                </a>
+              </p>
+            </div>
+            <div className="pure-u-1 pure-u-md-1-3">
+              <p className='branding'>
                 <a href='https://www.bitbox.earth'>
                   <img src="./bitbox.png" /><br />
                   BITBOX
