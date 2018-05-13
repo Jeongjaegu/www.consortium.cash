@@ -134,17 +134,17 @@ class App extends Component {
             </div>
             <div className="pure-u-1 pure-u-md-1-3">
               <p className='branding'>
-                <a href='https://www.yours.org'>
-                  <img src="./yours.jpg" /><br />
-                  Yours
+                <a href='https://pyxpub.io'>
+                  <img src="./pyxpub.png" /><br />
+                  Pyxpub
                 </a>
               </p>
             </div>
             <div className="pure-u-1 pure-u-md-1-3">
               <p className='branding'>
-                <a href='https://pyxpub.io'>
-                  <img src="./pyxpub.png" /><br />
-                  Pyxpub
+                <a href='https://www.yours.org'>
+                  <img src="./yours.jpg" /><br />
+                  Yours
                 </a>
               </p>
             </div>
