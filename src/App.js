@@ -140,6 +140,14 @@ class App extends Component {
                 </a>
               </p>
             </div>
+            <div className="pure-u-1 pure-u-md-1-3">
+              <p className='branding'>
+                <a href='https://pyxpub.io'>
+                  <img src="./pyxpub.png" /><br />
+                  Pyxpub
+                </a>
+              </p>
+            </div>
             <div className="pure-u-1">
               <h3><i className="fas fa-user" /> Individuals</h3>
               <p>The C2 is about empowering people around the world w/ Bitcoin Cash. We consist of companies and individuals committed to seeing Bitcoin Cash to it&rsquo;s full potential.</p>
