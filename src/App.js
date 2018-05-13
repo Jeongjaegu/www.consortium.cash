@@ -177,6 +177,12 @@ class App extends Component {
               </p>
             </div>
             <div className="pure-u-1 pure-u-md-1-3">
+              <p className='branding'>
+                <a href='https://twitter.com/StackmyBCHup'>
+                  <img src="./StackmyBCHup.jpg" /><br />
+                  StackmyBCHup
+                </a>
+              </p>
             </div>
             <div className="pure-u-1 pure-u-md-1-3">
               <p>
