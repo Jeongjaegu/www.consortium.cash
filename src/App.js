@@ -134,6 +134,14 @@ class App extends Component {
             </div>
             <div className="pure-u-1 pure-u-md-1-3">
               <p className='branding'>
+                <a href='http://flowee.org/'>
+                  <img src="./Flowee.png" /><br />
+                  Flowee
+                </a>
+              </p>
+            </div>
+            <div className="pure-u-1 pure-u-md-1-3">
+              <p className='branding'>
                 <a href='https://www.minipos.cash/'>
                   <img src="./minipos.jpg" /><br />
                   MiniPOS
